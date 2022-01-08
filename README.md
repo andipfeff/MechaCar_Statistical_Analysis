@@ -23,4 +23,5 @@
 
 #### **Results:**
 
-When looking at the summary statistics for the supsension coils in total the variance does not exceed the design specifications of 100 pounds per square inch. However, when you break these statistics down and group them by lot only lots 1 and 2 meet the design specifications for having a variance of less than 100 pounds per square inch.  Lot 3 has a variance of 170.3, which is well above the 100 pounds per square inch design specification.
+When looking at the summary statistics for the suspension coils in total the variance does not exceed the design specifications of 100 pounds per square inch. However, when you break these statistics down and group them by lot only lots 1 and 2 meet the design specifications for having a variance of less than 100 pounds per square inch.  Lot 3 has a variance of 170.3, which is well above the 100 pounds per square inch design specification. Because the variances for lots 1 and 2 are so small they offset the larger variance in lot 3 which is why the total variance falls below the design specification of 100.
+
