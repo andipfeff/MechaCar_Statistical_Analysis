@@ -1,18 +1,15 @@
 # MechaCar Statistical Analysis
 
 ## Linear Regression to Predict MPG
-### **RESULTS:**
+#### **Summary Statistics:**
 
 ![MechaCar_mpg_linear_regression_summary](https://user-images.githubusercontent.com/90863226/148660153-2de50ba6-e58a-45ee-b83c-2e37906f3a88.png)
 
-1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? (has significant impact on MPG)
-  - Vehicle Length
-  - Ground Clearance
+#### **Results:**
 
-2. Is the slope of the linear model considered to be zero? Why or why not?
+1. The Vehicle Length, Ground Clearance, and Intercept variables/coefficients all provide a non-random amount of variance to the mpg values.
 
-  - No, because our p-value is much smaller than .05%
+2. The slope of the linear model is not considered to be zero because the p-value of 5.35e-11 is much smaller than the assumed significance level of 0.05%.
 
-3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+3. This linear model will effectively predict the mpg of MechaCar prototypes because the r-value of .71 indicates a strong positive correlation between the variables and the MPG.
 
-  - Yes because the r-value is .71, which indicates a strong positive correlation between our variables and MPG
