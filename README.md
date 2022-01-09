@@ -29,16 +29,31 @@ When looking at the summary statistics for the suspension coils in total the var
 ## T-Tests on Suspension Coils
 #### **Total t-Test:**
 
-![total_t-Test](https://user-images.githubusercontent.com/90863226/148663625-825438a1-6a70-4c37-8a0f-37a15057f373.png)
+![total_t-Test](https://user-images.githubusercontent.com/90863226/148694852-e9d48fde-0ff6-40b8-8fa9-3467f8a43a8e.png)
+
+The p-value of 0.06 for the total data population is slightly higher than the significance level of 0.05, and can therefore be deemed to be statistically similar to the mean of 1500.
 
 #### **Lot 1 t-Test:**
 
-![Lot1_t-Test](https://user-images.githubusercontent.com/90863226/148663627-512cccb0-5f41-4c5c-8b31-e9bb24e00956.png)
+![Lot1_t-Test](https://user-images.githubusercontent.com/90863226/148694858-0ede1a27-b0d5-4541-95a0-8284e0494202.png)
+
+The p-value of 1 for Lot 1 is quite a bit higher than the significance level of 0.05, and can therefore be deemed to be statistically similar to the mean of 1500.
 
 #### **Lot 2 t-Test:**
 
-![Lot2_t-Test](https://user-images.githubusercontent.com/90863226/148663631-5998a9f0-4aad-4ccd-bb0f-64376612a0c3.png)
+![Lot2_t-Test](https://user-images.githubusercontent.com/90863226/148694873-e65f602e-a935-4c8f-8632-259c65d12994.png)
+
+Similar to the Lot 1 group, the p-value of 0.61 for Lot 2 is quite a bit higher than the significance level of 0.05, and can therefore be deemed to be statistically similar to the mean of 1500.
 
 #### **Lot 3 t-Test:**
 
-![Lot3_t-Test](https://user-images.githubusercontent.com/90863226/148663637-d2b7833a-fc02-4045-90ef-5a8d374caf44.png)
+![Lot3_t-Test](https://user-images.githubusercontent.com/90863226/148694882-4bb27703-4873-46e4-befd-c3710ba3df1a.png)
+
+The p-value of 0.04 for Lot 3 is below the significance level of 0.05, and can therefore be deemed to be statistically different from the population mean of 1500.
+
+
+## Study Design: MechaCar vs Competition
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
