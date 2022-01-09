@@ -53,12 +53,15 @@
 
 
 ## Study Design: MechaCar vs Competition
+#### **Study Overview:** 
+###### In this study we will be coparing the safety rating of MechaCar to the competitors, both in total and broken down by vehicle type (Truck, SUV, Wagon, etc.)
+
 #### **Metric to test:** 
-###### For this study we are going to test the safety rating for MechaCar's automobiles compared to the competitors. The metrics will be calculated over the total population for each manufacturer, as well as broken down by vehicle type (SUV, Wagon, Truck, Passenger Car, etc.). 
+###### The metric to test will be the average safety rating for each manufacturer in total and broken down by vehicle type.
 
 #### **Hypotheses:**
-###### 1. Null Hypothesis: The average safety rating among all manufacturers is equal.
-###### 2. Alternative Hypothesis: There is variance in the average safety rating in at least one automobile manufacturer from the others.
+###### 1. Null Hypothesis: The average safety rating among all manufacturers is equal (in total and by vehicle type).
+###### 2. Alternative Hypothesis: There is variance in the average safety rating in at least one automobile manufacturer from the others (in total and by vehicle type).
 
 #### **Statistical test:** 
 ###### The ANOVA statistical test would be used for this study as there are more than 2 automobile manufacturers that will be compared.
