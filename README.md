@@ -31,42 +31,37 @@
 
 ![total_t-Test](https://user-images.githubusercontent.com/90863226/148694852-e9d48fde-0ff6-40b8-8fa9-3467f8a43a8e.png)
 
-###### The p-value of 0.06 for the total data population is slightly higher than the significance level of 0.05, and can therefore be deemed to be statistically similar to the mean of 1500.
+###### The p-value of 0.06 for the total data population is slightly higher than the significance level of 0.05 and can therefore be deemed to be statistically similar to the mean of 1500.
 
 #### **Lot 1 t-Test:**
 
 ![Lot1_t-Test](https://user-images.githubusercontent.com/90863226/148694858-0ede1a27-b0d5-4541-95a0-8284e0494202.png)
 
-###### The p-value of 1 for Lot 1 is quite a bit higher than the significance level of 0.05, and can therefore be deemed to be statistically similar to the mean of 1500.
+###### The p-value of 1 for Lot 1 is quite a bit higher than the significance level of 0.05 and can therefore be deemed to be statistically similar to the mean of 1500.
 
 #### **Lot 2 t-Test:**
 
 ![Lot2_t-Test](https://user-images.githubusercontent.com/90863226/148694873-e65f602e-a935-4c8f-8632-259c65d12994.png)
 
-###### Similar to the Lot 1 group, the p-value of 0.61 for Lot 2 is quite a bit higher than the significance level of 0.05, and can therefore be deemed to be statistically similar to the mean of 1500.
+###### Similar to the Lot 1 group, the p-value of 0.61 for Lot 2 is quite a bit higher than the significance level of 0.05 and can therefore be deemed to be statistically similar to the mean of 1500.
 
 #### **Lot 3 t-Test:**
 
 ![Lot3_t-Test](https://user-images.githubusercontent.com/90863226/148694882-4bb27703-4873-46e4-befd-c3710ba3df1a.png)
 
-###### The p-value of 0.04 for Lot 3 is below the significance level of 0.05, and can therefore be deemed to be statistically different from the population mean of 1500.
+###### The p-value of 0.04 for Lot 3 is below the significance level of 0.05 and can therefore be deemed to be statistically different from the population mean of 1500.
 
 
 ## Study Design: MechaCar vs Competition
-#### **Metric to test:**
-
+#### **Metric to test:** 
 ###### For this study we are going to test the safety rating for MechaCar's automobiles compared to competitor brands. The metrics will be calculated over the total population for each brand, as well as broken down by vehicle type (SUV, Wagon, Truck, Passenger Car, etc.). 
 
 #### **Hypotheses:**
-
-###### 1. Null Hypothesis: The safety rating amongst all brands are equal.
-
+###### 1. Null Hypothesis: The average safety rating among all brands is equal.
 ###### 2. Alternative Hypothesis: There is variance in the average safety rating in at least one automobile brand from the others.
 
-#### **Statistical test:**
+#### **Statistical test:** 
+###### The ANOVA statistical test would be used for this study as there are more than 2 automobile brands that will be compared.
 
-###### What statistical test would you use to test the hypothesis? And why?
-
-#### **Data:**
-
-###### What data is needed to run the statistical test?
+#### **Data:** 
+###### The average safety rating by brand and vehicle type will need to be collected to be able to perform the statistical tests in this study.
