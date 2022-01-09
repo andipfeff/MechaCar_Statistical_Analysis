@@ -7,11 +7,11 @@
 
 #### **Results:**
 
-1. The Vehicle Length, Ground Clearance, and Intercept variables/coefficients all provide a non-random amount of variance to the mpg values.
+###### 1. The Vehicle Length, Ground Clearance, and Intercept variables/coefficients all provide a non-random amount of variance to the mpg values.
 
-2. The slope of the linear model is not considered to be zero because the p-value of 5.35e-11 is much smaller than the assumed significance level of 0.05%.
+###### 2. The slope of the linear model is not considered to be zero because the p-value of 5.35e-11 is much smaller than the assumed significance level of 0.05%.
 
-3. This linear model will effectively predict the mpg of MechaCar prototypes because the r-value of .71 indicates a strong positive correlation between the variables and the MPG.
+###### 3. This linear model will effectively predict the mpg of MechaCar prototypes because the r-value of .71 indicates a strong positive correlation between the variables and the MPG.
 
 
 ## Summary Statistics on Suspension Coils
@@ -23,7 +23,7 @@
 
 #### **Results:**
 
-When looking at the summary statistics for the suspension coils in total the variance does not exceed the design specifications of 100 pounds per square inch. However, when you break these statistics down and group them by lot only lots 1 and 2 meet the design specifications for having a variance of less than 100 pounds per square inch.  Lot 3 has a variance of 170.3, which is well above the 100 pounds per square inch design specification. Because the variances for lots 1 and 2 are so small they offset the larger variance in lot 3 which is why the total variance falls below the design specification of 100.
+###### When looking at the summary statistics for the suspension coils in total the variance does not exceed the design specifications of 100 pounds per square inch. However, when you break these statistics down and group them by lot only lots 1 and 2 meet the design specifications for having a variance of less than 100 pounds per square inch.  Lot 3 has a variance of 170.3, which is well above the 100 pounds per square inch design specification. Because the variances for lots 1 and 2 are so small they offset the larger variance in lot 3 which is why the total variance falls below the design specification of 100.
 
 
 ## T-Tests on Suspension Coils
@@ -55,13 +55,13 @@ When looking at the summary statistics for the suspension coils in total the var
 ## Study Design: MechaCar vs Competition
 #### **Metric to test:**
 
-###### What metric or metrics are you going to test?
+###### For this study we are going to test the safety rating for MechaCar's automobiles compared to competitor brands. The metrics will be calculated over the total population for each brand, as well as broken down by vehicle type (SUV, Wagon, Truck, Passenger Car, etc.). 
 
 #### **Hypotheses:**
 
-###### 1. Null Hypothesis:
+###### 1. Null Hypothesis: The safety rating amongst all brands are equal.
 
-###### 2. Alternative Hypothesis:
+###### 2. Alternative Hypothesis: There is variance in the average safety rating in at least one automobile brand from the others.
 
 #### **Statistical test:**
 
